@@ -2,6 +2,7 @@ import joblib
 import pandas as pd
 from flask import Flask, request, jsonify, render_template
 
+# Create Flask app instance
 app = Flask(__name__)
 
 # Load the trained model and scaler
